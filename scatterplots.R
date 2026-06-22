@@ -1,4 +1,4 @@
-
+#make sure to set working directory/filepath
 library("ggplot2")
 library("ggpubr")
 library("MuMIn")
@@ -118,3 +118,4 @@ allplots<-ggarrange(EVcarb,KLCarb,MEcarb,
 plot(allplots)
 allplots<-ggsave("scatterplots.tiff", width = 10,
               height = 6.7, dpi=900)#can specify requirements further
+#creates scatterplots of relatiohsips that were important based on analysis
